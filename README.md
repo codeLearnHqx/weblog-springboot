@@ -4,7 +4,7 @@
 个人博客系统后端
 
 #### 软件架构
-软件架构说明
+### SpringBoot + SpringSecurity + Minio + mybatis-plus
 
 
 
