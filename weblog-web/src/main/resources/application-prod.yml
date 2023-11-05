@@ -1,0 +1,20 @@
+# 自定义logback日志（spring-boot-starter自带）
+logging:
+  config: classpath:logback-weblog.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/weblog?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 5                   # Hikari连接池中最小空闲连接数。
+      maximum-pool-size: 20             # Hikari连接池中允许的最大连接数。
+      auto-commit: true                 # 连接是否自动提交事务。
+      idle-timeout: 30000               # 连接在连接池中闲置的最长时间，超过这个时间会被释放。
+      pool-name: Weblog-HikariCP        # 连接池的名字。
+      max-lifetime: 1800000             # 连接在连接池中的最大存活时间，超过这个时间会被强制关闭。
+      connection-timeout: 30000         # 获取连接的超时时间。
+      connection-test-query: SELECT 1   # 用于测试连接是否可用的SQL查询，这里使用的是SELECT 1，表示执行这个查询来测试连接。
+

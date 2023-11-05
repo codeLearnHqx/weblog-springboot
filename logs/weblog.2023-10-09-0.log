@@ -1,0 +1,14 @@
+TraceId: ] 2023-10-09 23:17:36.413 [main] INFO  com.hqx.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_152 on DESKTOP-EP4947T with PID 10768 (D:\code\myprojects\weblog-springboot\weblog-web\target\classes started by hqx in D:\code\myprojects\weblog-springboot)
+TraceId: ] 2023-10-09 23:17:36.415 [main] INFO  com.hqx.weblog.web.WeblogWebApplication - The following profiles are active: prod
+TraceId: ] 2023-10-09 23:17:37.112 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+TraceId: ] 2023-10-09 23:17:37.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+TraceId: ] 2023-10-09 23:17:37.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+TraceId: ] 2023-10-09 23:17:37.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+TraceId: ] 2023-10-09 23:17:37.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+TraceId: ] 2023-10-09 23:17:37.115 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+TraceId: ] 2023-10-09 23:17:37.121 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+TraceId: ] 2023-10-09 23:17:37.121 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+TraceId: ] 2023-10-09 23:17:37.172 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+TraceId: ] 2023-10-09 23:17:37.172 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 732 ms
+TraceId: ] 2023-10-09 23:17:37.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+TraceId: ] 2023-10-09 23:17:37.435 [main] INFO  com.hqx.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.45 seconds (JVM running for 2.825)
